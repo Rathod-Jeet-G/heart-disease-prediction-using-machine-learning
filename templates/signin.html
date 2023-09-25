@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c10ee54d22.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../static/css/signinc.css">
+    <title>Sign In</title>
+
+    <script>
+        if("{{data}}"==""){
+
+        }
+        else{
+            alert("{{data}}");
+            
+        }
+        
+    </script>
+</head>
+
+<body>
+
+  
+    <div class="row">
+        <div class="container1">
+            <img src="../static/image/signin.jpg" alt="">
+        </div>
+
+        <div class="container2">
+            <div class="container">
+                <h1>Sign Up</h1>
+                <form action="singup_data" method="POST">
+                    <div class="box">
+                        <label for="name">Name</label>
+                        <i class="fa fa-user"></i>
+                        <input type="name" name="uname" class="place" placeholder="Your name" required>
+                    </div>
+                    <div class="box">
+                        <label for="email">Email</label>
+                        <i class="fa fa-envelope"></i>
+                        <input type="email" , name="uemail" placeholder="Your email" required>
+                    </div>
+                    <div class="box">
+                        <label for="password">Password (6 character minimum)</label>
+                        <i class="fa fa-key"></i>
+                        <input type="password" name="upassword" minlength="6" maxlength="8"
+                            placeholder="Create password" required>
+                    </div>
+                    <div class="box">
+                        <label for="mobile">Mobile No</label>
+                        <i class="fa fa-mobile"></i>
+                        <input type="mobile" , name="umobile" placeholder="type here..." required>
+                    </div>
+                    <button class="btn">Sign Up</button>
+                    <p class="signup">Have an account? <a href="login">Login</a></p>
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c10ee54d22.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../static/css/loginc.css">
+    <title>Login</title>
+    <script>
+        if("{{data}}"==""){
+
+        }
+        else{
+            alert("{{data}}");
+        }
+        
+    </script>
+</head>
+
+<body>
+    
+    <div class="container">
+        <h1>Login</h1>
+        <form action="login_data" method="post">
+            <div class="box">
+                <i class="fa fa-envelope"></i>
+                <input type="email"  name="uemail" placeholder="Email" required>
+            </div>
+            <div class="box">
+                <i class="fa fa-key"></i>
+                <input type="password"  name="upassword" placeholder="Password" required>
+            </div>
+            <button class="btn">Login</button>
+            <p class="signup">Don't have an account? <a href="signup">Sign Up </a></p>
+        </form>
+    </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c10ee54d22.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../static/css/home.css">
+    <title>Home</title>
+    <script>
+        if("{{data}}"==""){
+
+        }
+        else{
+            alert("{{data}}");
+            
+        }
+        
+    </script>
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="nav">
+            <ul>
+                <li><a class="detail" href="logout">Logout</a></li>
+                <li><a class="home" href="profile">Profile</a></li>
+                <li><a class="home" href="info">Information</a></li>
+                <li><a class="home" href="about_us">Devloped By</a></li>
+                <li><a class="home" href="home">Home</a></li>
+
+            </ul>
+        </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="doctorimg">
+            <img src="../static/image/doctor1.jpg">
+
+        </div>
+
+
+        <div class="head1">
+
+            <div class="h1">
+                <h1>HEART DISEASE PREDICTION SYSTEM</h1>
+                <h3 class="h3">Without Account you can't accsess prediction page. </h3>
+                <h3 class="h3">Please click Signup button to create account and then go prediction page,</h3>
+                <h3 class="h3"> If you have any account then click prediction button to go prediction Form. </h3>
+                <ul class='loading-frame'>
+                    <div class='circle'></div>
+                    <div class='circle'></div>
+                    <div class='circle'></div>
+                    <div class='circle'></div>
+                    <div class='circle'></div>
+                    <div class='circle'></div>
+                    <div class='circle'></div>
+                    <div class='circle'></div>
+                    <div class='circle'></div>
+                    <div class='circle'></div>
+                </ul>
+            </div>
+            <form action="prediction">
+                <div class="btn1">
+
+                    <input type="submit" name="pr" value="Prediction">
+
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+
+    </div>
+    <div class="row">
+        <div class="h2">
+            <h1>About System:-</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="../static/image/main_graph.png">
+                <p>Comparision chart of various algorithm development. Currently best accuracy provided by our algorithm
+                    is 95%.
+                </p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <img src="../static/image/machine.jpeg">
+                <p>Machine learning disease prediction is a system that predicts diseases based on information
+                    provided by users.so just by entering the symptoms user can detect disease digitally using
+                    Artificial intelligence technology.</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <img src="../static/image/heart.jpeg">
+                <p>How to Use:<br>
+                <p>
+                    1.Create or Login with account
+                    <br>
+                    2.Provide required information of particular patients.
+
+                    <br>
+                    3.Results will be available within few seconds on screen using AI technology.
+                    <br>
+                    </ol>
+                </p>
+
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="footer">
+        <p>&copy;Copyright 2022<br>
+            Devloped by Group 7
+        </p>
+    </div>
+
+</body>
+
+</html>

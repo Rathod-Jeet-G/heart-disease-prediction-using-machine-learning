@@ -1,0 +1,207 @@
+ @import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        .nav {
+            font-family: 'Rubik', sans-serif;
+            background-color: rgb(78, 74, 74);
+            width: 100%;
+            padding: 15px 0px;
+            position: fixed;
+            top: 0;
+            z-index: 1;
+        }
+
+        .nav li {
+            list-style: none;
+            display: inline;
+            float: right;
+            margin: 10px;
+
+        }
+
+        .nav li .home {
+            text-decoration: none;
+            color: white;
+            padding: 15px;
+            transition: 0.5s;
+            border-radius: 10px;
+        }
+
+        .nav li .home:hover {
+            transition: 0.5s;
+            border-radius: 10px;
+            color: black;
+            background-color: white;
+            outline: 1px solid red;
+        }
+
+        .detail {
+            background-color: rgb(56, 56, 242);
+            border-radius: 10px;
+            padding: 15px;
+            color: white;
+            text-decoration: none;
+
+        }
+
+        .detail:hover {
+            outline: 5px solid gray;
+        }
+
+        .main {
+            
+            /* border: 2px solid; */
+            position: relative;
+            background-image: url(../static/image/home.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        .container {
+            position: absolute;
+            /* border: 2px solid red; */
+            border-radius: 40px;
+            top: 13%;
+            left: 5.5%;
+            width: 90%;
+            padding: 20px;
+            /* background-image: linear-gradient(rgba(234, 176, 69, 0.612),rgba(203, 195, 195, 0.606),rgba(73, 133, 73, 0.558)); */
+            background-color: rgba(0, 0, 0, 0.681);
+        }
+        .container h1{
+            font-family: 'Rubik', sans-serif;
+            text-align: center;
+            color: white;
+            letter-spacing: 2px;
+            /* border-bottom: 2px solid red; */
+            margin-bottom: 20px;
+        }
+
+        .inputbox1 {
+            margin-bottom: 10px;
+            width: 50%;
+            padding: 20px;
+            /* border: 2px solid red; */
+        }
+
+        .inputbox1 input {
+            width: 100%;
+            padding: 10px;
+            font-size: 18px;
+            outline: none;
+            border-radius: 15px;
+            border: none;
+            background-color: rgb(255, 255, 255);
+            border: 3px solid gray;
+            transition: 0.5s;
+            
+        }
+        .inputbox1 input:hover{
+            border: 3px solid rgb(39, 230, 10);
+            border-radius: 15px;
+            transition: 0.5s;
+
+        }
+
+        .inputbox1 label {
+            color: white;
+            display: inline-block;
+            padding-bottom: 10px;
+            font-size: 18px;
+            letter-spacing: 1px;
+            font-family: 'Rubik', sans-serif;
+        }
+        .inputbox2 {
+            margin-bottom: 10px;
+            width: 50%;
+            padding: 20px;
+            /* border: 2px solid red; */
+        }
+
+        .inputbox2 input {
+            width: 65%;
+            display: block;
+            padding: 10px;
+            font-size: 18px;
+            outline: none;
+            border-radius: 10px;
+            border: none;
+            border: 3px solid gray;
+            transition: 0.5s;
+            /* background-color: rgb(203, 194, 194); */
+        }
+
+        .inputbox2 label {
+            color: white;
+            display: inline-block;
+            padding-bottom: 10px;
+            font-size: 18px;
+            font-family: 'Rubik', sans-serif;
+        }
+        .inputbox2 input:hover{
+            border: 3px solid rgb(39, 230, 10);
+            border-radius: 10px;
+            transition: 0.5s;
+
+        }
+        .button{
+            text-align: center;
+            margin-top: 32px;
+        }
+        
+        .btn{
+            margin: 0 20px;
+            background-color: rgb(71, 71, 242);
+            color: white;
+            width: 20%;
+            padding: 10px;
+            font-size: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.5s;
+            border: 3px solid green;
+
+        }
+        /* .btn :hover{
+            background-color: green;
+            color: black;
+            font-size: 20px;
+            padding: 10px 50px;
+            transition: 0.5s;
+            border: 2px solid black;
+
+        } */
+        /* .logout .btn a{
+            margin: 0 20px;
+            background-color: rgb(71, 71, 242);
+            color: white;
+            width: 20%;
+            padding: 10px;
+            font-size: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.5s;
+            border: 3px solid green;
+            text-decoration: none;
+        } */
+ /* .a1{
+    text-decoration: none;
+    color: white;
+} */
+.user{
+    color: lawngreen;
+    font-size: 20px;
+}
+.check{
+    width: 20px;
+}

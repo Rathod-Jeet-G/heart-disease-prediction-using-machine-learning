@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+
+.row{
+    display: flex;
+}
+.nav {
+    font-family: 'Rubik', sans-serif;
+    background-color: rgba(78, 74, 74, 0.308);
+    width: 100%;
+    padding: 15px 0px;
+   
+    top: 0;
+    z-index: 1;
+  }
+  
+  .nav li {
+    list-style: none;
+    display: inline;
+    float: right;
+    margin: 10px;
+  
+  }
+  
+  .nav li .home {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    transition: 0.5s;
+    border-radius: 10px;
+  }
+  
+  .nav li .home:hover {
+    transition: 0.5s;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    outline: 1px solid red;
+  }
+  
+  .detail {
+    background-color: rgb(56, 56, 242);
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+  
+  }
+  .detail:hover {
+    outline: 5px solid gray;
+}
+  
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url('../image/loginbg3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main_div{
+    width: 100vw;
+    height: 100vh;
+  
+}
+
+.container{
+    top: 20%;
+    left: 60%;
+    position: absolute;
+    padding: 15px;
+    width: 30%;
+
+    border-radius: 40px;
+    background: linear-gradient(rgba(240, 101, 101, 0.281),rgba(101, 101, 239, 0.349));
+    box-shadow: 10px 10px 10px black;
+}
+.container h1{
+    font-family: 'Luxurious Roman', cursive;
+    color: rgb(255, 0, 0);
+    font-size: 3rem;
+    display: inline-block;
+    border-bottom: 5px solid gold;
+    margin-bottom: 30px;
+    padding: 15px 0;
+}
+.box{
+    width: 100%;
+    border-bottom: 4px solid gold;
+    margin: 32px 0;
+    transition: ease-in-out 0.6s;
+}
+.box:hover{
+    border-bottom: 4px solid green;
+    transition: ease-in-out 0.3s;
+}
+
+.box i{
+    width: 25px;
+    text-align: center;
+}
+.box input{
+    background: none;
+    border: none;
+    width: 75%;
+    margin: 0px 0;
+    font-size: 25px;
+    padding: 8px 10px;
+    outline: none;
+}
+.btn{
+    cursor: pointer;
+    margin: 15px 0;
+    padding: 10px 0;
+    font-size: 20px;
+    border: 2px solid gold;
+    width: 100%;
+    background: green;
+    color: gold;
+    border-radius: 30px;
+    
+    transition: ease-in-out 0.1s;
+    box-shadow: 10px 10px 10px  black;
+     
+}
+.btn:hover{
+    background: yellow;
+    color: green;
+    border: 3px solid green;
+    /* box-shadow: 10px -10px 10px  black; */
+    box-shadow: none;
+    transition: ease-in-out 0.1s; 
+}
+.signup{
+    padding-top: 13px;
+    text-align: center;
+    font-size: 20px;
+}
